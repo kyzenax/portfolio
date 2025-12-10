@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Haze — Web Developer & Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="network-canvas"></canvas>
+  <div class="page-shell">
+    <nav class="nav">
+      <div class="nav__logo">NH.</div>
+      <button class="nav__toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav__links" id="nav-links">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#work" class="nav__link">Work</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="section hero" id="home">
+        <div class="hero__glows">
+          <div class="glow glow--mint" aria-hidden="true"></div>
+          <div class="glow glow--coral" aria-hidden="true"></div>
+          <div class="glow glow--violet" aria-hidden="true"></div>
+        </div>
+        <div class="card hero__card reveal">
+          <p class="eyebrow">Hey, I’m</p>
+          <h1 class="hero__title">Nova Haze</h1>
+          <p class="hero__subtitle">Freelance web developer & UI designer crafting custom digital experiences.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#work">See my projects</a>
+            <a class="btn btn--ghost" href="#about">More about me</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section__header reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2 class="section__title">Signature builds & digital experiments</h2>
+          <p class="section__subtitle">High-performing sites crafted with meticulous detail, strategic UX, and modern stacks.</p>
+        </div>
+        <div class="grid work__grid">
+          <article class="card work__card reveal">
+            <div class="work__card-header">
+              <h3>Pulse Analytics</h3>
+              <a class="work__link" href="#">View project</a>
+            </div>
+            <p class="muted">Real-time data dashboard for enterprise teams with adaptive theming.</p>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">D3.js</span>
+              <span class="tag">Product Design</span>
+            </div>
+          </article>
+          <article class="card work__card reveal">
+            <div class="work__card-header">
+              <h3>Lumen Studio</h3>
+              <a class="work__link" href="#">View project</a>
+            </div>
+            <p class="muted">Portfolio & booking platform for a boutique interior collective.</p>
+            <div class="tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">CMS</span>
+              <span class="tag">Brand System</span>
+            </div>
+          </article>
+          <article class="card work__card reveal">
+            <div class="work__card-header">
+              <h3>Orbit Commerce</h3>
+              <a class="work__link" href="#">View project</a>
+            </div>
+            <p class="muted">Conversion-optimized storefront with immersive product storytelling.</p>
+            <div class="tags">
+              <span class="tag">Shopify</span>
+              <span class="tag">Headless</span>
+              <span class="tag">CRO</span>
+            </div>
+          </article>
+          <article class="card work__card reveal">
+            <div class="work__card-header">
+              <h3>Echo Labs</h3>
+              <a class="work__link" href="#">View project</a>
+            </div>
+            <p class="muted">Landing system for AI research hub with interactive knowledge map.</p>
+            <div class="tags">
+              <span class="tag">Three.js</span>
+              <span class="tag">WebGL</span>
+              <span class="tag">Motion Design</span>
+            </div>
+          </article>
+          <article class="card work__card reveal">
+            <div class="work__card-header">
+              <h3>Northwind Retreats</h3>
+              <a class="work__link" href="#">View project</a>
+            </div>
+            <p class="muted">Serene booking experience for eco-resorts with realtime availability.</p>
+            <div class="tags">
+              <span class="tag">SvelteKit</span>
+              <span class="tag">API</span>
+              <span class="tag">UI/UX</span>
+            </div>
+          </article>
+          <article class="card work__card reveal">
+            <div class="work__card-header">
+              <h3>Atlas Insight</h3>
+              <a class="work__link" href="#">View project</a>
+            </div>
+            <p class="muted">Thought-leadership hub with immersive storytelling and SEO architecture.</p>
+            <div class="tags">
+              <span class="tag">Content Design</span>
+              <span class="tag">Animation</span>
+              <span class="tag">SEO</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="card about__card reveal">
+          <div class="about__intro">
+            <p class="eyebrow">About</p>
+            <h2 class="section__title">Designing the future of the web</h2>
+            <p class="muted">I build custom websites that blend intentional design with high-performance engineering. My process is strategic, collaborative, and focused on creating experiences that feel effortless, look premium, and convert.</p>
+          </div>
+          <div class="skills">
+            <div class="skills__column">
+              <h3>Design</h3>
+              <ul>
+                <li>Product & UI systems</li>
+                <li>Design language creation</li>
+                <li>Interactive prototypes</li>
+              </ul>
+            </div>
+            <div class="skills__column">
+              <h3>Front-end</h3>
+              <ul>
+                <li>React / Next.js / Svelte</li>
+                <li>Web animations & WebGL</li>
+                <li>Performance optimization</li>
+              </ul>
+            </div>
+            <div class="skills__column">
+              <h3>Tools</h3>
+              <ul>
+                <li>Figma & Framer</li>
+                <li>GSAP & Anime.js</li>
+                <li>Analytics & A/B testing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="grid contact__grid">
+          <div class="card contact__card reveal">
+            <p class="eyebrow">Let’s build</p>
+            <h2 class="section__title">Tell me about your project</h2>
+            <p class="muted">I partner with founders, teams, and agencies to craft bespoke digital products, brand sites, and immersive launches.</p>
+            <form class="form">
+              <label class="form__field">
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label class="form__field">
+                <span>Email</span>
+                <input type="email" name="email" placeholder="you@example.com" required />
+              </label>
+              <label class="form__field">
+                <span>Project details</span>
+                <textarea name="message" rows="4" placeholder="Timeline, goals, scope" required></textarea>
+              </label>
+              <button class="btn btn--primary" type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="card contact__social reveal">
+            <h3>Connect</h3>
+            <ul class="social">
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Behance</a></li>
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="muted">© 2024 Nova Haze. Crafted with intention.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
