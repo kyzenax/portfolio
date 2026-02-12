@@ -1,0 +1,1 @@
+export default function AboutPage() { return <div className="container-pad py-12"><h1 className="text-3xl font-semibold">About the Clinic</h1><p className="mt-4 max-w-3xl text-slate-600">Roniya Aesthetic delivers consultation-led injectable and skin treatments in a clean, premium setting for Oldbury and Birmingham clients.</p></div>; }
