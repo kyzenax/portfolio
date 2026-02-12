@@ -1,0 +1,1 @@
+export default function Page() { return <div className="container-pad py-12"><h1 className="text-3xl font-semibold">Cookies</h1><p className="mt-4 max-w-3xl text-slate-600">This page includes UK clinic policy content for cookies including safety, compliance, and client guidance.</p></div>; }
