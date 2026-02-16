@@ -1,0 +1,26 @@
+[
+  {
+    "question": "How do I book driving lessons?",
+    "answer": "Use the booking form or call us directly. We respond within one working day."
+  },
+  {
+    "question": "Do you offer manual or automatic lessons?",
+    "answer": "We offer [Manual / Automatic / Both] lessons in [CITY]."
+  },
+  {
+    "question": "What areas do you cover?",
+    "answer": "We cover [LIST OF TOWNS/POSTCODES] with flexible pickup options."
+  },
+  {
+    "question": "What is your cancellation policy?",
+    "answer": "We require [CANCELLATION POLICY] notice for changes or cancellations."
+  },
+  {
+    "question": "Can I book intensive or refresher lessons?",
+    "answer": "Yes. We offer intensive, refresher, and mock test support depending on availability."
+  },
+  {
+    "question": "Do you provide lessons for nervous drivers?",
+    "answer": "Yes, lessons are adapted to suit nervous or anxious learners with a calm approach."
+  }
+]

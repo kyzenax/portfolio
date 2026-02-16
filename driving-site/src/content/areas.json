@@ -1,0 +1,17 @@
+[
+  {
+    "name": "[TOWN/POSTCODE 1]",
+    "slug": "town-postcode-1",
+    "description": "Driving lessons in [TOWN/POSTCODE 1] with flexible pickup points and local test route knowledge."
+  },
+  {
+    "name": "[TOWN/POSTCODE 2]",
+    "slug": "town-postcode-2",
+    "description": "Friendly driving tuition for learners in [TOWN/POSTCODE 2], tailored to your pace."
+  },
+  {
+    "name": "[TOWN/POSTCODE 3]",
+    "slug": "town-postcode-3",
+    "description": "Structured lessons across [TOWN/POSTCODE 3] focusing on safety and confidence."
+  }
+]
