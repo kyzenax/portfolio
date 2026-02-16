@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Pay-as-you-go",
+    "price": "£[PRICE] per hour",
+    "details": [
+      "Ideal for flexible scheduling",
+      "Includes lesson planning and progress tracking",
+      "Manual/Automatic: [Manual / Automatic / Both]"
+    ]
+  },
+  {
+    "name": "Block booking",
+    "price": "£[PRICE] for [X] hours",
+    "details": [
+      "Best value package",
+      "Block booking rules: [BLOCK BOOKING RULES]",
+      "Lessons must be used within [EXPIRY PERIOD]"
+    ]
+  },
+  {
+    "name": "Intensive package",
+    "price": "From £[PRICE]",
+    "details": [
+      "Structured plan over [DURATION]",
+      "Includes mock test if requested",
+      "Subject to availability"
+    ]
+  }
+]
